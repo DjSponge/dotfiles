@@ -9,6 +9,7 @@ ce() {
 
 ## Hyprland / Ricing config files
 alias ce-hyprland="ce ~/.config/hypr/hyprland.conf"
+alias ce-hyprpaper="ce ~/.config/hypr/hyprpaper.conf"
 
 ## ZSH config files
 alias ref="source ~/.zshrc"
