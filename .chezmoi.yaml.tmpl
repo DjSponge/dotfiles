@@ -1,0 +1,4 @@
+{{- $env := promptStringOnce . "env" "Environment type (arch-hypr, ubuntu-kde, ubuntu-gnome)" -}}
+
+data:
+  env: {{ $env | quote }}
